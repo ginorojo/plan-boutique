@@ -147,7 +147,7 @@ export default function InvitacionBoutiqueDefinitiva() {
         {!invitacionAbierta && (
           <motion.div
             key="sobre" exit={{ opacity: 0, scale: 1.1, filter: "blur(10px)" }} transition={{ duration: 1.2, ease: [0.83, 0, 0.39, 1] }}
-            className="fixed inset-0 z-100lex flex-col items-center justify-center bg-[#050505] perspective-[1000px]"
+            className="fixed inset-0 z-100 flex flex-col items-center justify-center bg-[#050505] perspective-[1000px]"
           >
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(197,160,89,0.15)_0%,transparent_70%)]"></div>
             <motion.div 
